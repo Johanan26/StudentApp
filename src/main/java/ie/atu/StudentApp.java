@@ -1,6 +1,6 @@
 package ie.atu;
 
-public class Student {
+public class StudentApp {
     private String studentName;
     private String studentEmail;
     private String studentCourse;
@@ -12,14 +12,14 @@ public class Student {
     private String studentCCourse;
 
     //Default Constructor
-    public Student() {
+    public StudentApp() {
         this.studentName = "";
         this.studentEmail = "";
         this.studentCourse ="";
     }
 
     //Student C's Constructor
-    public Student(String studentCName, String studentCEmail, String studentCCourse){
+    public StudentApp(String studentCName, String studentCEmail, String studentCCourse){
         this.studentCName = studentCName;
         this.studentCEmail = studentCEmail;
         this.studentCCourse = studentCCourse;
@@ -53,7 +53,7 @@ public class Student {
 
     //Setters
 
-    public Student(String studentAName){
+    public StudentApp(String studentAName){
         this.studentBName = studentAName;
     }
     public void setStudentBEmail(String studentBEmail){
