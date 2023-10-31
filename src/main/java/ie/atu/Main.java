@@ -19,9 +19,19 @@ public class Main {
         user1.setCourse(scanner.nextLine());
         System.out.print("\n");
 
+//Student 2
+        System.out.print("STUDENT 2\n");
+        System.out.print("Enter Student Name: ");
+        firstName = scanner.nextLine();
+        Student user2 = new Student(firstName);
+        System.out.print("Enter Student Email: ");
+        user2.setStudentBEmail(scanner.nextLine());
+        System.out.print("Enter Student Course: ");
+        user2.setCourseBName(scanner.nextLine());
+        System.out.print("\n");
 
     //displays all information gathered
         user1.displayInfo();
+        user2.displayInfoB();
 }
     }
-
