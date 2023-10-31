@@ -6,7 +6,7 @@ public class Main {
         String firstName;
         String Name3,Email3,Course3;
         Scanner scanner = new Scanner(System.in);
-        Student user1 = new Student();
+        StudentApp user1 = new StudentApp();
         //Student 1
         System.out.print("STUDENT 1\n");
         System.out.print("Enter Student Name: ");
@@ -20,7 +20,7 @@ public class Main {
         System.out.print("STUDENT 2\n");
         System.out.print("Enter Student Name: ");
         firstName = scanner.nextLine();
-        Student user2 = new Student(firstName);
+        StudentApp user2 = new StudentApp(firstName);
         System.out.print("Enter Student Email: ");
         user2.setStudentBEmail(scanner.nextLine());
         System.out.print("Enter Student Course: ");
@@ -34,7 +34,7 @@ public class Main {
         Email3 = scanner.nextLine();
         System.out.print("Enter Student Course: ");
         Course3 = scanner.nextLine();
-        Student user3 = new Student(Name3,Email3,Course3);
+        StudentApp user3 = new StudentApp(Name3,Email3,Course3);
         System.out.print("\n");
         //displays all information gathered
         user1.displayInfo();
