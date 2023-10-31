@@ -41,7 +41,7 @@ public class StudentApp {
     public String getStudentBEmail(){
         return studentBEmail;
     }
-    public String getCourseAName(){
+    public String getCourseBName(){
         return studentBCourse;
     }
 
@@ -51,11 +51,12 @@ public class StudentApp {
 
     public String getCourse(){return studentCourse;}
 
-    //Setters
-
-    public StudentApp(String studentAName){
-        this.studentBName = studentAName;
+    //constructor for B
+    public StudentApp(String studentBName){
+        this.studentBName = studentBName;
     }
+
+    //Setters
     public void setStudentBEmail(String studentBEmail){
         this.studentBEmail = studentBEmail;
     }

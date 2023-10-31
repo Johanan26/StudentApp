@@ -16,6 +16,7 @@ public class Main {
         System.out.print("Enter Student Course: ");
         user1.setCourse(scanner.nextLine());
         System.out.print("\n");
+
         //Student 2
         System.out.print("STUDENT 2\n");
         System.out.print("Enter Student Name: ");
@@ -26,6 +27,7 @@ public class Main {
         System.out.print("Enter Student Course: ");
         user2.setCourseBName(scanner.nextLine());
         System.out.print("\n");
+
         //Student 3
         System.out.print("STUDENT 3\n");
         System.out.print("Enter Student Name: ");
@@ -36,6 +38,7 @@ public class Main {
         Course3 = scanner.nextLine();
         StudentApp user3 = new StudentApp(Name3,Email3,Course3);
         System.out.print("\n");
+
         //displays all information gathered
         user1.displayInfo();
         user2.displayInfoB();
